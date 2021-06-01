@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>千羽的加密解密器(ﾟ∀。)</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="scripts/script.js"></script>
+    </head>
+    <body>
+        <h1>千羽的加密解密器(ﾟ∀。)</h1>
+
+        <input type="radio" name="cypt" value="encypt" onclick="CyptRadio();ClearBox();" checked>加密
+        <input type="radio" name="cypt" value="decypt" onclick="CyptRadio();ClearBox();">解密
+        <br><br>
+
+        <h3 id="enterTitle">輸入要加密的文字(限英文)：</h3>
+        <textarea id="enterBox" class="textBox"></textarea>
+        <br><br>
+        <button id="cyptBtn" onclick="StartCypt();">加密</button>
+        <br><br>
+
+        <h3>輸出結果：</h3>
+        <textarea type="text" id="outputBox" class="textBox" readonly></textarea>
+        <br><br>
+        <button id="clone" onclick="Copy();">複製</button>
+        <br><br><br>
+    </body>
+    <footer>
+        <h2 id="creatorInfo">作者資料</h2>
+        <h3>千羽</h3>
+        <img src="image/wongwong.png" width="100px" height="100px">
+        <br><br>
+        <a href="https://www.youtube.com/channel/UCqwEZYkFVmqXoJAbgGxw1HA" target="_blank"><img src="image/YoutubeIcon.png" width="50px" height="50px" alt="Youtube"></a>
+        <a href="https://discord.gg/kjajx2BFk9" target="_blank"><img src="image/DiscordIcon.png" width="50px" height="50px" alt="Discord"></a>
+        <a href="https://home.gamer.com.tw/homeindex.php?owner=wongwong1209" target="_blank"><img src="image/BahamutIcon.png" width="50px" height="50px" alt="Bahamut"></a>
+        <a href="https://www.instagram.com/wongwong_1209/" target="_blank"><img src="image/IGIcon.png" width="50px" height="50px" alt="Instagram"></a>
+        <br><br><br><br><br>
+    </footer>
+</html>
